@@ -1,0 +1,25 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e29f3b;
+  border: 3px solid rgb(10, 10, 10);
+  border-radius: 10px;
+  padding: 1px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+.card-monsterNames{
+  color:black;
+  font-family: Redressed;
+}
+.email{
+  font-family: 'Source+Code+Pro:wght@200';
+  color: blue;
+}
